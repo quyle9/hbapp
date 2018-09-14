@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Quy Guru</title>
+</head>
+<body ng-app="app">
+<h1 ng-controller="helloQuyCtrl">{{message}}</h1>
+<script src="https://code.angularjs.org/1.6.9/angular.js"></script>
+<script type="text/javascript">
+	angular.module('app', []).controller("helloQuyCtrl", function($scope){
+		$scope.message = "hello Beo dep trai"
+	})
+</script>
+</body>
+</html>
